@@ -1,5 +1,2 @@
-
-class Restaurant < ActiveApplicationRecord
-
-
+class Restaurant < ApplicationRecord
 end

@@ -5,7 +5,6 @@ class CreateRestaurants < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :price
       t.string :rating
-      t.string :price
     end
   end
 end
