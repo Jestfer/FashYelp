@@ -12,10 +12,10 @@
 
 ActiveRecord::Schema.define(version: 20180313154528) do
 
-  create_table "Restaurants", force: :cascade do |t|
-    t.string "Name"
-    t.string "Description"
-    t.string "Price"
+  create_table "restaurants", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "price"
   end
 
 end
