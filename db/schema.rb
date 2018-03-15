@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20180313154528) do
     t.string "name"
     t.string "description"
     t.string "price"
-    t.string "rating"
   end
 
 end
