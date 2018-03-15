@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20180314122203) do
     t.string "name"
     t.string "description"
     t.string "price"
+    t.string "rating"
   end
 
   create_table "reviews", force: :cascade do |t|
