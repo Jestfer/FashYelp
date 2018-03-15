@@ -1,6 +1,6 @@
 class Review < ApplicationRecord
 
-  validates :rating, validates :comment, presence: true
-
+  validates :rating, :comment, presence: true
+  belongs_to :restaurant
 
 end

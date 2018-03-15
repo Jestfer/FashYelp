@@ -20,9 +20,5 @@ class Review < ApplicationController
       end
     end
   end
+
   end
-
-
-
-
-end
