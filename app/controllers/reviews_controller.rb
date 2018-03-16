@@ -1,4 +1,4 @@
-class Review < ApplicationController
+class ReviewsController < ApplicationController
 
 # GET/reviews
 
