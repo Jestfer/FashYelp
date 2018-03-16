@@ -3,7 +3,7 @@ class ReviewsController < ApplicationController
 # GET/reviews
 
   def index
-    @reviews=Review.all
+    @reviews = Review.where({restaurant_id: params['restaurant_id']})
   end
 
 #POST/reviews

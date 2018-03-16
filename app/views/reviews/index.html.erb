@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Reviews</h1>
+
+<tbody>
+  <% @reviews.each do |review| %>
+  <tr>
+    <td><strong>Rating: </strong><%= review.rating%></td> -
+    <td><strong>Comments: </strong><%= review.comments%></td>
+  </tr>
+  <br>
+  <% end %>
+</tbody>
