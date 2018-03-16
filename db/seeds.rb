@@ -9,3 +9,6 @@
 Restaurant.create(name: "Lobos", description: "Asian fusion", price: "30 pounds")
 Restaurant.create(name: "Zorros", description: "Mediteranean cuisine", price: "15 pounds")
 Restaurant.create(name: "Zeedel", description: "Ethiopian inspired nosh", price: "30 pounds")
+
+Review.create(rating: "4", comments: "Cheap", restaurant_id: 1)
+Review.create(rating: "3", comments: "Nice Octopus", restaurant_id: 2)

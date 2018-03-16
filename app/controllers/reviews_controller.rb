@@ -1,4 +1,4 @@
-class Review < ApplicationController
+class ReviewsController < ApplicationController
 
 # GET/reviews
 
@@ -20,9 +20,5 @@ class Review < ApplicationController
       end
     end
   end
+
   end
-
-
-
-
-end
